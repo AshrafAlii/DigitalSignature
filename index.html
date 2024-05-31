@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Signature</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Digital Signature</h1>
+        <div class="content">
+            <div class="document">
+                <!-- Display the document to be signed here -->
+                <p>This is the document to be signed.</p>
+            </div>
+            <div class="signature">
+                <canvas id="signatureCanvas" width="400" height="200"></canvas>
+            </div>
+        </div>
+        <div class="button-group">
+            <button class="btn clear-btn" onclick="clearCanvas()">Clear</button>
+            <button class="btn sign-btn" onclick="saveSignature()">Sign & Download</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

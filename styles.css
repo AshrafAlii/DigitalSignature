@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #add8e6; /* Light blue background color */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #003366; /* Dark blue background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    color: #fff; /* White text color for contrast */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    color: #fff; /* White text color */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.document {
+    padding: 15px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    color: #000; /* Black text color for the document */
+}
+
+.signature {
+    position: relative;
+}
+
+canvas {
+    background-color: #fff; /* White background for the canvas */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.clear-btn {
+    background-color: #ff4b5c;
+}
+
+.clear-btn:hover {
+    background-color: #ff1c38;
+}
+
+.canvas-cleared {
+    opacity: 0.5;
+}
